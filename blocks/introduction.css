@@ -1,0 +1,21 @@
+.introduction {
+  width: 80vw;
+  margin: 0 auto;
+  -webkit-transform: translateX(2%);
+  -ms-transform: translateX(2%);
+  transform: translateX(2%);
+}
+
+.introduction__title {
+  margin-top: 10vh;
+  font-size: 3.4rem;
+  font-weight: bold;
+  line-height: 1.04;
+}
+
+.introduction__text {
+  margin: 3% 0 0;
+  width: 70%;
+  font-size: 1em;
+  line-height: 1.4;
+}

@@ -1,0 +1,81 @@
+@media screen and (max-width: 768px) {
+  .page {
+    min-width: 320px;
+  }
+
+  .header__title {
+    margin-top: 7vh;
+    font-size: 2.5rem;
+    line-height: 1.1;
+  }
+
+  .header__subtitle {
+    font-size: 1rem;
+    line-height: 1.25;
+  }
+
+  .header__image {
+    width: 320px;
+    height: 200px;
+  }
+
+  .introduction__title {
+    font-size: 2rem;
+    line-height: 1.09;
+  }
+
+  .quote {
+    line-height: 1.5;
+  }
+
+  .place {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "title"
+      "artist"
+      "image"
+      "text"
+      "button";
+  }
+
+  .place__title {
+    font-size: 2em;
+    line-height: 1.08;
+  }
+
+  .place__artist {
+    padding-top: 1em;
+  }
+
+  .place__image {
+    width: 320px;
+    height: 320px;
+  }
+
+  .place__text {
+    padding: 0 0 2em;
+  }
+
+  .button {
+    padding: 1em;
+    font-size: 0.88em;
+    line-height: 1.25;
+    -ms-grid-column-align: center;
+    justify-self: center;
+  }
+
+  .cover {
+    height: 254px;
+  }
+
+  .cover__title {
+    font-size: 2rem;
+    line-height: 1.08;
+  }
+
+  .cover__text {
+    font-size: 0.88rem;
+    line-height: 1.25;
+  }
+}

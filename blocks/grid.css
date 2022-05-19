@@ -1,0 +1,21 @@
+.grid {
+  margin-top: 10vh;
+  width: 95vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  gap: 16px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.grid__item {
+  margin: 0;
+  width: 20vw;
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 284px;
+  flex: 1 1 284px;
+}

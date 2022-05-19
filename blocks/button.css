@@ -1,0 +1,29 @@
+.button-link {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: button;
+  font-family: "Inter";
+  align-self: baseline;
+  margin: 0;
+  font-size: 1em;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  color: #fff;
+  padding: 1em;
+  background-color: #0278fe;
+  border-radius: 4%;
+  border: none;
+  text-decoration: none;
+}
+
+.button-link:hover {
+  background-color: #0063d2;
+}
+
+.button-link_center {
+  margin: 0 auto;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
