@@ -32,3 +32,28 @@
   line-height: 1.22;
   font-weight: normal;
 }
+
+@media screen and (max-width: 1280px) {
+  .cover {
+    height: 746px;
+    -o-object-fit: contain;
+    object-fit: contain;
+    overflow: hidden;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover {
+    height: 254px;
+  }
+
+  .cover__title {
+    font-size: 2rem;
+    line-height: 1.08;
+  }
+
+  .cover__text {
+    font-size: 0.88rem;
+    line-height: 1.25;
+  }
+}

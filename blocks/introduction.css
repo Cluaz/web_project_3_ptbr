@@ -19,3 +19,22 @@
   font-size: 1em;
   line-height: 1.4;
 }
+
+@media screen and (max-width: 1280px) {
+  .introduction {
+    width: 95vw;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+  }
+  .introduction__text {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .introduction__title {
+    font-size: 2rem;
+    line-height: 1.09;
+  }
+}

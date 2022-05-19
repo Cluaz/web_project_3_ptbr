@@ -27,3 +27,19 @@
   -ms-grid-row-align: center;
   align-self: center;
 }
+
+@media screen and (max-width: 1280px) {
+  .button {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .button {
+    padding: 1em;
+    font-size: 0.88em;
+    line-height: 1.25;
+    -ms-grid-column-align: center;
+    justify-self: center;
+  }
+}

@@ -14,3 +14,15 @@
 .quote__cite {
   text-align: right;
 }
+
+@media screen and (max-width: 1280px) {
+  .quote {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .quote {
+    line-height: 1.5;
+  }
+}
