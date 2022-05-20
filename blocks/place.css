@@ -40,7 +40,7 @@
   justify-content: left;
 }
 
-.place__artist_name {
+.place__artist-name {
   color: #aaa;
   font-size: 0.7em;
   letter-spacing: 0.12em;
@@ -49,7 +49,7 @@
   text-transform: uppercase;
 }
 
-.place__artist_name::after {
+.place__artist-name::after {
   content: "\a";
   white-space: pre-line;
 }

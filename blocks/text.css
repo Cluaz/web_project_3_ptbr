@@ -1,4 +1,4 @@
-.text__breakline::before {
+.text-breakline::before {
   content: "\a";
   white-space: pre-line;
 }
