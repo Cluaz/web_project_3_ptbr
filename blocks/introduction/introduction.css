@@ -1,0 +1,16 @@
+.introduction {
+  width: 80vw;
+  margin: 0 auto;
+  -webkit-transform: translateX(2%);
+  -ms-transform: translateX(2%);
+  transform: translateX(2%);
+}
+
+@media screen and (max-width: 1279px) {
+  .introduction {
+    width: 95vw;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+  }
+}

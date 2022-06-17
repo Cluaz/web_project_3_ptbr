@@ -6,22 +6,13 @@
   line-height: 1.4;
 }
 
-.quote__cite::before {
-  content: "\a";
-  white-space: pre;
-}
-
-.quote__cite {
-  text-align: right;
-}
-
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1279px) {
   .quote {
     width: 100%;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .quote {
     line-height: 1.5;
   }

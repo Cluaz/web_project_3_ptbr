@@ -1,0 +1,21 @@
+.header__subtitle {
+  margin-top: 4.8vh;
+  max-width: 60vw;
+  font-size: 1.88rem;
+  line-height: 1.5;
+  font-weight: normal;
+  text-align: center;
+}
+
+@media screen and (max-width: 1279px) {
+  .header__subtitle {
+    max-width: 95vw;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header__subtitle {
+    font-size: 1rem;
+    line-height: 1.25;
+  }
+}

@@ -1,0 +1,16 @@
+.place__artist {
+  grid-area: artist;
+  width: 100%;
+  font-size: 1.2em;
+  font-weight: normal;
+  line-height: 1.2;
+  -webkit-box-pack: left;
+  -ms-flex-pack: left;
+  justify-content: left;
+}
+
+@media screen and (max-width: 767px) {
+  .place__artist {
+    padding-top: 1em;
+  }
+}

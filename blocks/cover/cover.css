@@ -1,7 +1,7 @@
 .cover {
   margin-top: 10vh;
   height: 740px;
-  background-image: url(../images/background.jpg);
+  background-image: url(../../images/background.jpg);
   background-repeat: no-repeat;
   background-position: center;
   display: -webkit-box;
@@ -19,21 +19,7 @@
   align-items: center;
 }
 
-.cover__title {
-  font-size: 4.5rem;
-  line-height: 1.06;
-  font-weight: bold;
-}
-
-.cover__text {
-  margin-top: 4.8vh;
-  margin-bottom: 4.8vh;
-  font-size: 1.2rem;
-  line-height: 1.22;
-  font-weight: normal;
-}
-
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1279px) {
   .cover {
     height: 746px;
     -o-object-fit: contain;
@@ -42,18 +28,8 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .cover {
     height: 254px;
-  }
-
-  .cover__title {
-    font-size: 2rem;
-    line-height: 1.08;
-  }
-
-  .cover__text {
-    font-size: 0.88rem;
-    line-height: 1.25;
   }
 }

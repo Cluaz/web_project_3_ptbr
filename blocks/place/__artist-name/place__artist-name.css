@@ -1,0 +1,13 @@
+.place__artist-name {
+  color: #aaa;
+  font-size: 0.7em;
+  letter-spacing: 0.12em;
+  font-weight: normal;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.place__artist-name::after {
+  content: "\a";
+  white-space: pre-line;
+}

@@ -22,7 +22,7 @@
   background-color: rgba(42, 44, 47, 0.8);
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1279px) {
   .overlay {
     width: 100%;
   }

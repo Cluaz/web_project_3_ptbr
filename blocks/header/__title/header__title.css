@@ -1,0 +1,22 @@
+.header__title {
+  margin-top: 15vh;
+  max-width: 60vw;
+  font-size: 6rem;
+  line-height: 1.04;
+  font-weight: bold;
+  text-align: center;
+}
+
+@media screen and (max-width: 1279px) {
+  .header__title {
+    max-width: 90vw;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header__title {
+    margin-top: 7vh;
+    font-size: 2.5rem;
+    line-height: 1.1;
+  }
+}

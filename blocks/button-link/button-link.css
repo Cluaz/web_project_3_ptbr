@@ -1,6 +1,4 @@
 .button-link {
-  -ms-grid-row: 3;
-  -ms-grid-column: 1;
   grid-area: button;
   font-family: "Inter";
   align-self: baseline;
@@ -21,25 +19,17 @@
   background-color: #0063d2;
 }
 
-.button-link_center {
-  margin: 0 auto;
-  -ms-flex-item-align: center;
-  -ms-grid-row-align: center;
-  align-self: center;
-}
-
-@media screen and (max-width: 1280px) {
-  .button {
+@media screen and (max-width: 1279px) {
+  .button-link {
     margin: 0;
   }
 }
 
-@media screen and (max-width: 768px) {
-  .button {
+@media screen and (max-width: 767px) {
+  .button-link {
     padding: 1em;
     font-size: 0.88em;
     line-height: 1.25;
     -ms-grid-column-align: center;
-    justify-self: center;
   }
 }

@@ -1,0 +1,31 @@
+.place {
+  margin-top: 7vh;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 0 50%;
+  grid-template-columns: repeat(2, 50%);
+  grid-template-areas:
+    "title artist"
+    "image text"
+    "button text";
+  -webkit-column-gap: 0;
+  -moz-column-gap: 0;
+  column-gap: 0;
+  justify-items: flex-start;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+
+@media screen and (max-width: 767px) {
+  .place {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "title"
+      "artist"
+      "image"
+      "text"
+      "button";
+  }
+}

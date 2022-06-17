@@ -1,0 +1,15 @@
+.place__text {
+  -ms-grid-row-span: 2;
+  grid-area: text;
+  align-self: flex-start;
+  padding-top: 10%;
+  font-size: 1.125em;
+  font-weight: normal;
+  line-height: 1.63;
+}
+
+@media screen and (max-width: 767px) {
+  .place__text {
+    padding: 0 0 2em;
+  }
+}
