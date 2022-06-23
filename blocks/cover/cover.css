@@ -4,6 +4,8 @@
   background-image: url(../../images/background.jpg);
   background-repeat: no-repeat;
   background-position: center;
+  background-color: rgba(42, 44, 47, 0.3);
+  background-blend-mode: darken;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -17,6 +19,11 @@
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  text-align: center;
+}
+
+.cover:hover {
+  background-color: rgba(42, 44, 47, 0.8);
 }
 
 @media screen and (max-width: 1279px) {

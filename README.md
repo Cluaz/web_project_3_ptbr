@@ -6,7 +6,8 @@
 ## Visão geral  
   
 Este respositório tem o propósito de aprender a utilizar o design responsivo em um projeto de apenas uma página que mostra as cidades de origem de alguns funcionários do Practicum.  
-Foi realizado de forma que todos os elementos sejam exibidos corretamente em tamanhos de tela populares (320px, 768px, 1280px).  
+Foi realizado de forma que todos os elementos sejam exibidos corretamente em tamanhos de tela populares (320px, 768px, 1280px).
+E tenham uma transição fluida, sem quebras de layout, apresentando-se bem também nos endpoints: 470px, 665px, 999px, 1100px e 1500px. 
 
 ## Técnicas utilizadas  
   

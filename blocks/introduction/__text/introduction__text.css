@@ -1,12 +1,13 @@
 .introduction__text {
-  margin: 3% 0 0;
+  margin-top: 4vh;
   width: 70%;
-  font-size: 1em;
+  font-size: 16px;
   line-height: 1.4;
 }
 
 @media screen and (max-width: 1279px) {
   .introduction__text {
+    margin-top: 3.1vh;
     width: 100%;
   }
 }

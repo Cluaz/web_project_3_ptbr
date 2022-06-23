@@ -1,8 +1,0 @@
-.quote__cite::before {
-  content: "\a";
-  white-space: pre;
-}
-
-.quote__cite {
-  text-align: right;
-}

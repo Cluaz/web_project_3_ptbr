@@ -1,7 +1,7 @@
 .place__artist {
   grid-area: artist;
   width: 100%;
-  font-size: 1.2em;
+  font-size: 18px;
   font-weight: normal;
   line-height: 1.2;
   -webkit-box-pack: left;
@@ -11,6 +11,6 @@
 
 @media screen and (max-width: 767px) {
   .place__artist {
-    padding-top: 1em;
+    padding-top: 8px;
   }
 }
