@@ -2,12 +2,18 @@
   margin-top: 10vh;
   display: -ms-grid;
   display: grid;
+  -ms-grid-columns: 50% 1vw 50%;
   grid-template-columns: repeat(2, 50%);
   grid-template-areas:
     "title artist"
     "image text"
     "button text";
+  -webkit-column-gap: 1vw;
+  -moz-column-gap: 1vw;
   column-gap: 1vw;
+  -webkit-row-gap: 6vh;
+  -moz-row-gap: 6vh;
+  row-gap: 6vh;
   justify-items: flex-start;
   -webkit-box-align: end;
   -ms-flex-align: end;
@@ -24,5 +30,8 @@
       "image"
       "text"
       "button";
+    -webkit-column-gap: 1vw;
+    -moz-column-gap: 1vw;
+    column-gap: 1vw;
   }
 }

@@ -2,7 +2,6 @@
   grid-area: button;
   font-family: "Inter";
   align-self: baseline;
-  margin: 6vh 0 0;
   font-size: 18px;
   -webkit-box-pack: start;
   -ms-flex-pack: start;
@@ -27,7 +26,7 @@
 
 @media screen and (max-width: 767px) {
   .button-link {
-    margin-top: 9vh;
+    margin: 4.5vh auto 0;
     padding: 16px 22px;
     font-size: 14px;
     line-height: 1.25;

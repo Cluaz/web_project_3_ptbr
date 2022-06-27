@@ -4,6 +4,12 @@
 
 @media screen and (max-width: 1279px) {
   .logo {
-    width: 35vw;
+    width: 26.3vw;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .logo {
+    width: 41.6vw;
   }
 }
