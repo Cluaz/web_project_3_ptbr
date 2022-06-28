@@ -1,6 +1,7 @@
 .photo-grid {
-  margin: 6vh auto 0;
-  width: 95vw;
+  margin: 12vh auto 0;
+  width: 98%;
+  max-width: 1482px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

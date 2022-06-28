@@ -1,6 +1,7 @@
 .introduction {
-  width: 80vw;
   margin: 0 auto;
+  width: 80vw;
+  max-width: 1308px;
   -webkit-transform: translateX(2%);
   -ms-transform: translateX(2%);
   transform: translateX(2%);
@@ -8,7 +9,8 @@
 
 @media screen and (max-width: 1279px) {
   .introduction {
-    width: 95vw;
+    max-width: 985px;
+    width: 95%;
     -webkit-transform: none;
     -ms-transform: none;
     transform: none;

@@ -10,7 +10,7 @@
   .place__title {
     font-size: 42px;
   }
-}
+} /*de acordo com o brief, o título tem tamanhos diferentes em cada tela, e como as fontes devem ser em px, estou especificando cada uma */
 
 @media screen and (max-width: 767px) {
   .place__title {

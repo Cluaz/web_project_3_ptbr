@@ -1,23 +1,10 @@
 .place__image {
   grid-area: image;
-  width: 460px;
-  height: 460px;
+  max-width: 460px;
+  max-height: 460px;
+  width: 92%;
   -o-object-fit: cover;
   object-fit: cover;
   align-self: flex-start;
   justify-self: flex-start;
-}
-
-@media screen and (max-width: 1279px) {
-  .place__image {
-    width: 340px;
-    height: 340px;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .place__image {
-    width: 320px;
-    height: 320px;
-  }
 }

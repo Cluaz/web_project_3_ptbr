@@ -4,12 +4,13 @@
 
 @media screen and (max-width: 1279px) {
   .logo {
+    max-width: 296px;
     width: 26.3vw;
   }
 }
 
 @media screen and (max-width: 767px) {
   .logo {
-    width: 41.6vw;
+    width: 200px;
   }
 }

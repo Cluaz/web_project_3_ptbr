@@ -1,5 +1,6 @@
 .place-grid {
   margin: 1.5vh auto 0;
+  width: 99%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -10,10 +11,4 @@
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-}
-
-@media screen and (max-width: 1279px) {
-  .place-grid {
-    width: 96vw;
-  }
 }
