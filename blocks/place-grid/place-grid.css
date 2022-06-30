@@ -1,6 +1,5 @@
 .place-grid {
-  margin: 1.5vh auto 0;
-  width: 99%;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

@@ -9,7 +9,7 @@
   justify-content: left;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 656px) {
   .place__artist {
     padding-top: 8px;
   }

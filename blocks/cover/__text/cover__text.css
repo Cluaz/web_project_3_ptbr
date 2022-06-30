@@ -1,15 +1,13 @@
 .cover__text {
-  margin-top: 3.5vh;
-  margin-bottom: 3vh;
+  margin: 32px 0;
   font-size: 18px;
   line-height: 1.2;
   font-weight: normal;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 656px) {
   .cover__text {
-    margin-top: 3.3vh;
-    margin-bottom: 3.3vh;
+    margin: 16px 0;
     font-size: 14px;
     line-height: 1.25;
   }

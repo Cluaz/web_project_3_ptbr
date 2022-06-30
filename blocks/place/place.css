@@ -1,11 +1,13 @@
+/*seguindo sua orientação, eu retirei o margin do place-grid. Contudo, se analisar o margin do photo-grid e título do place em relação a distância entre as cidades no brief em 1280px é de 92 px/80px, e no de 789px é 88px/72px. Assim, para manter padronizado, eu mantive o margin do título em 80px e 72px, pois essa é a distancia entre todas as cidades e adicionei um margin-bottom de 12px e 16px no photo-grid para fechar os 92px e 88px.*/
+
 .place {
-  margin: 10vh auto 0;
+  margin: 80px auto 0;
   max-width: 1060px;
-  width: 98%;
+  width: 76.5%;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 40px 1fr;
-  grid-template-columns: 1fr 1fr;
+  -ms-grid-columns: 1.05fr 40px 1fr;
+  grid-template-columns: 1.05fr 1fr;
   grid-template-areas:
     "title artist"
     "image text"
@@ -14,25 +16,29 @@
   -webkit-column-gap: 40px;
   -moz-column-gap: 40px;
   column-gap: 40px;
-  -webkit-row-gap: 6vh;
-  -moz-row-gap: 6vh;
-  row-gap: 6vh;
+  -webkit-row-gap: 48px;
+  -moz-row-gap: 48px;
+  row-gap: 48px;
   justify-items: flex-start;
   -webkit-box-align: end;
   -ms-flex-align: end;
   align-items: flex-end;
 }
 
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 1024px) {
   .place {
-    -webkit-column-gap: 13px;
-    -moz-column-gap: 13px;
-    column-gap: 13px;
+    width: 93.6%;
+    margin: 72px auto 0;
+    -webkit-column-gap: 28px;
+    -moz-column-gap: 28px;
+    column-gap: 28px;
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 656px) {
   .place {
+    margin: 50px auto 0;
+    width: 89.8%;
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
     grid-template-areas:
@@ -41,8 +47,8 @@
       "image"
       "text"
       "button";
-    -webkit-row-gap: 6.2vh;
-    -moz-row-gap: 6.2vh;
-    row-gap: 6.2vh;
+    -webkit-row-gap: 22px;
+    -moz-row-gap: 22px;
+    row-gap: 22px;
   }
 }

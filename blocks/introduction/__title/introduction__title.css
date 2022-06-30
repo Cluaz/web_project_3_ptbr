@@ -1,13 +1,19 @@
 .introduction__title {
-  margin-top: 11.5vh;
+  margin-top: 92px;
   font-size: 54px;
   font-weight: bold;
   line-height: 1.04;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1024px) {
   .introduction__title {
-    margin-top: 4vh;
+    margin-top: 88px;
+  }
+}
+
+@media screen and (max-width: 656px) {
+  .introduction__title {
+    margin-top: 44px;
     font-size: 32px;
     line-height: 1.09;
   }

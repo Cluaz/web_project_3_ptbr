@@ -1,14 +1,14 @@
 .quote {
-  margin-top: 5vh;
+  margin-top: 40px;
   max-width: 720px;
   font-size: 24px;
   font-weight: normal;
   line-height: 1.4;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 656px) {
   .quote {
-    margin-top: 3.8vh;
+    margin-top: 9px;
     line-height: 1.5;
   }
 }

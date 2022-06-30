@@ -1,5 +1,5 @@
 .header__title {
-  margin: 92px 0 4vh;
+  margin: 92px auto 32px;
   max-width: 690px;
   width: 100%;
   font-size: 96px;
@@ -8,9 +8,15 @@
   text-align: center;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1024px) {
   .header__title {
-    margin-top: 10.4vh;
+    margin-bottom: 99px;
+  }
+}
+
+@media screen and (max-width: 656px) {
+  .header__title {
+    margin: 50px auto 60px;
     max-width: 288px;
     font-size: 40px;
     line-height: 1.1;

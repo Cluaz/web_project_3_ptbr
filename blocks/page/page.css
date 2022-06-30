@@ -6,13 +6,13 @@
   color: #fff;
 }
 
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 1024px) {
   .page {
-    min-width: 768px;
+    min-width: 657px;
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 656px) {
   .page {
     min-width: 320px;
   }

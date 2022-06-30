@@ -9,3 +9,9 @@
   font-weight: normal;
   line-height: 1.63;
 }
+
+@media screen and (max-width: 1024px) {
+  .place__text {
+    row-gap: 13px;
+  }
+}

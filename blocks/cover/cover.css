@@ -1,5 +1,5 @@
 .cover {
-  margin-top: 10vh;
+  margin-top: 92px;
   height: 740px;
   background-image: url(../../images/background.jpg);
   background-repeat: no-repeat;
@@ -26,7 +26,7 @@
   background-color: rgba(42, 44, 47, 0.8);
 }
 
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 1024px) {
   .cover {
     height: 746px;
     -o-object-fit: contain;
@@ -35,8 +35,9 @@
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 656px) {
   .cover {
+    margin-top: 64px;
     height: 254px;
   }
 }
