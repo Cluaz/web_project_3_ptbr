@@ -14,9 +14,3 @@
     flex: 1 1 352px;
   }
 }
-
-@media screen and (max-width: 656px) {
-  .photo-grid {
-    width: 100%;
-  }
-}

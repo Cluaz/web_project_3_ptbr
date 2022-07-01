@@ -1,10 +1,15 @@
 .place__image {
   grid-area: image;
-  max-width: 460px;
-  max-height: 460px;
   width: 100%;
   -o-object-fit: cover;
   object-fit: cover;
   align-self: flex-start;
   justify-self: flex-start;
+}
+
+@media screen and (max-width: 656px) {
+  .place__image {
+    width: 110%;
+    justify-self: center;
+  }
 }

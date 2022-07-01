@@ -1,5 +1,3 @@
-/*seguindo sua orientação, eu retirei o margin do place-grid. Contudo, se analisar o margin do photo-grid e título do place em relação a distância entre as cidades no brief em 1280px é de 92 px/80px, e no de 789px é 88px/72px. Assim, para manter padronizado, eu mantive o margin do título em 80px e 72px, pois essa é a distancia entre todas as cidades e adicionei um margin-bottom de 12px e 16px no photo-grid para fechar os 92px e 88px.*/
-
 .place {
   margin: 80px auto 0;
   max-width: 1060px;
@@ -8,11 +6,11 @@
   display: grid;
   -ms-grid-columns: 1.05fr 40px 1fr;
   grid-template-columns: 1.05fr 1fr;
+  grid-template-rows: repeat(2, auto) 1fr;
   grid-template-areas:
     "title artist"
     "image text"
-    "button text"
-    ". text";
+    "button text";
   -webkit-column-gap: 40px;
   -moz-column-gap: 40px;
   column-gap: 40px;
@@ -38,7 +36,7 @@
 @media screen and (max-width: 656px) {
   .place {
     margin: 50px auto 0;
-    width: 89.8%;
+    width: 90.5%;
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
     grid-template-areas:
